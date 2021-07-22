@@ -1,0 +1,13 @@
+Void function1(Int a, Int b)
+{
+    Int c = a + b;
+    //return c;
+}
+
+Int function2()
+{
+
+    Int k = function1(2,4);
+    //function1 = 5;
+
+}

@@ -1,0 +1,20 @@
+Int main()
+{
+
+    Int a = 0;
+    Int i = 0;
+
+    While(i<10)
+    {
+        a= a + 2;
+        i++;
+    }
+    Print("Value of a is: %I\n",a);
+
+    do{
+        a = a - 1;
+    }While(a>20);
+
+    Print("Value of a is: %I\n",a);
+
+}

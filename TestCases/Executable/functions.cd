@@ -1,0 +1,38 @@
+Void pr(Int d)
+{
+    String s = "Value recieved is:";
+    Print("%S %I\n",s,d);
+}
+
+Void printfib(Int l, Int q, Int r, Int y)
+{
+    If(r<=y)
+    {
+        Int g = l + q;
+        Print("%I ",g);
+        r++;
+        printfib(q,g,r,y);
+    }
+    
+}
+
+Int addtwonumbers(Int i, Int j)
+{
+    pr(i);
+    pr(j);
+    i = i + j;
+    return i;
+}
+
+Int main()
+{
+    Int a = 1;
+    Int b = 1;
+    Int k = addtwonumbers(a,b);
+    Print("Value of k is: %I\n",k);
+    Int c = 15;
+    Int d = 3;
+    Print("Fibonacci series: %I %I ",a,b);
+    printfib(a,b,d,c);
+    Print("\n");
+}

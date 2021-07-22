@@ -1,0 +1,43 @@
+Int main()
+{
+    Int a[10] = {2,9,7,3,10,54,100,1,0,234};
+    Int len = 10;
+    Int i = 0;
+
+
+    Print("Initial Array => %I",a[0]);
+    For(i=1;i<len;i++)
+    {
+        Int k = 0;
+        k = a[i-1] + 0;
+        Print(" - %I",k);
+    }
+    Print("\n");
+
+
+    For(i=0;i<(len-1);i++)
+    {
+        Int j = 0;
+        For(j=i;j<len;j++)
+        {
+            Int k = a[i-1] + 0;
+            Int p = a[j-1] + 0;
+            If(k>p)
+            {
+                a[j-1] = k;
+                a[i-1] = p;
+            }
+        }
+    }
+    
+
+    Print("Sorted Array  => %I",a[0]);
+    For(i=1;i<len;i++)
+    {
+        Int k = 0;
+        k = a[i-1] + 0;
+        Print(" - %I",k);
+    }
+    Print("\n");
+
+}

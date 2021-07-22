@@ -1,0 +1,12 @@
+Int main()
+{
+
+    Int a = 0;
+    String s = "Hello World!";
+    Scan(s);
+
+    Scan(c);
+
+    Scan(1);
+
+}

@@ -1,0 +1,13 @@
+Int main()
+{
+
+    Int a = 0;
+
+    Print("%I %I\n",a);
+
+    Print("%I)
+    
+    Print("Hello World!")
+
+
+}

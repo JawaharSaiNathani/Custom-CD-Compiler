@@ -1,0 +1,29 @@
+Int main()
+{
+
+    Int a = 12;
+    Int b = 4;
+
+    If(a>5 and b>5)
+    {
+        Print("1\n");
+    }
+    Else If(a>5 or b>5)
+    {
+        If(a<5)
+        {
+            Print("2.1\n");
+        }
+        Else If(b>5)
+        {
+            Print("2.2\n");
+        }
+        Else{
+            Print("2.3\n");
+        }
+    }
+    Else{
+        Print("3\n");
+    }
+
+}

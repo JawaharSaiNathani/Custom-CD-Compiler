@@ -1,0 +1,46 @@
+Int main()
+{
+
+    Int a = 20;
+    Int b = 6;    
+
+    Int c = a % b;
+    Print("Remainder: %I\n",c);
+
+    c = a + b;
+    Print("Add: %I\n",c);
+
+    c = a - b;
+    Print("Sub: %I\n",c);
+
+    c = a * b;
+    Print("Mul: %I\n",c);
+
+    String s = "Enter values a and b: ";
+
+    Print("%S\n",s);
+    Scan(a,b);
+    Print("Entered values: %I - %I\n",a,b);
+
+    c = (((a+b)*(a-b))+a-b)/b;
+    Print("Complex: %I\n",c);
+
+    If(a>b)
+    {
+        Print("a is greater than b\n");
+    }
+    Else
+    {
+        Print("a is not greater than b\n");
+    }
+
+    If(a<b)
+    {
+        Print("b id greater than a\n");
+    }
+    Else
+    {
+        Print("b is not greater than a\n");
+    }
+
+}

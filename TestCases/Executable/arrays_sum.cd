@@ -1,0 +1,17 @@
+Int main()
+{
+    Int a[5] = {2,15,1,3,4};
+    Int i = 0;
+    Int j = 0;
+    For(i=0;i<5;i++)
+    {
+        j = a[i-1] + j;
+    }
+    Print("Sum of values of array a is: %I\n",j);
+
+    a[0] = 10;
+    a[1] = 12;
+    a[2] = 0;
+
+    Print("First 3 values of array a are: %I %I %I\n",a[0],a[1],a[2]);
+}
